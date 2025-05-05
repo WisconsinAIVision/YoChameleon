@@ -6,7 +6,8 @@ from PIL import Image
 from tqdm import tqdm
 from utils import Config, get_dataloader_iter, get_eval_dataloader
 from yochameleon import YoChameleonTrainer
-from yoemu3 import YoEmu3Trainer
+
+# from yoemu3 import YoEmu3Trainer
 
 warnings.filterwarnings("ignore")
 
@@ -33,8 +34,8 @@ if __name__ == '__main__':
     # call training loop
     if config.model_id == 'leloy/Anole-7b-v0.1-hf':
         trainer = YoChameleonTrainer(config)
-    elif config.model_id == 'Emu3-community/Emu3-Gen-hf':
-        trainer = YoEmu3Trainer(config)
+    # elif config.model_id == 'Emu3-community/Emu3-Gen-hf':
+    #     trainer = YoEmu3Trainer(config)
     else:
         raise ValueError(f"Model ID {config.model_id} is not supported yet~")
 

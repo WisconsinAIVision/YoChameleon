@@ -1,6 +1,6 @@
 # Yo'Chameleon (Unofficial)
 
-###  [Project Page](https://thaoshibe.github.io/YoChameleon) | [arXiv](https://arxiv.org/abs/2504.20998) | [HF Datasets](https://huggingface.co/datasets/thaoshibe/YoChameleon)
+###  [Project Page](https://thaoshibe.github.io/YoChameleon) | [arXiv](https://arxiv.org/abs/2504.20998) | [HF Datasets](https://huggingface.co/datasets/thaoshibe/Mini-YoChameleon-Data)
 
 
 <img src="./images/yochameleon-bo.png" alt="YoChameleon" width="1000">
